@@ -1,0 +1,369 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+/* We purchased this theme from Bootstrap at the very start: */
+/* http://themes.getbootstrap.com/preview/?theme_id=1474 */
+@font-face {
+  font-family: "toolkit-entypo";
+  src: url(/assets/toolkit-entypo-3700d3d1d498629a0ea8e58f5c2f1113a8cea7c2c3fe43697ee39cb4d871a1a6.eot);
+  src: url(/assets/toolkit-entypo-3700d3d1d498629a0ea8e58f5c2f1113a8cea7c2c3fe43697ee39cb4d871a1a6.eot?#iefix) format("eot"), url(/assets/toolkit-entypo-d60f06f6fb429c04dfe901be46f98187c39ddfef0265f73a007f2abed29e0a54.woff2) format("woff2"), url(/assets/toolkit-entypo-44539e86a6fa82289085e1b33b6f80a03544bed1f7f00717415bade98894562f.woff) format("woff"), url(/assets/toolkit-entypo-e11166392cdd0f3c8b35bdac21bf2bd1516590b3637d52e147df17504c17b02f.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Colors, try to stick with ones from FlatUI */
+/* http://www.flatuicolorpicker.com/ */
+/* line 45, app/assets/stylesheets/application.scss */
+p {
+  font-weight: 400;
+}
+
+body {
+  padding-top:    2em;
+}
+
+/* line 49, app/assets/stylesheets/application.scss */
+.sc-form-label {
+  margin-bottom: 1px;
+  max-width: 100%;
+}
+
+/* line 54, app/assets/stylesheets/application.scss */
+.bg-primary {
+  background-color: black !important;
+}
+
+/* For the validation of the short name of the snug circle */
+/* line 59, app/assets/stylesheets/application.scss */
+.circle-short-icon-styles {
+  font-size: 1.8em;
+  margin-right: 24px;
+  margin-top: 20px;
+  position: absolute;
+  right: 52px;
+}
+
+/* line 67, app/assets/stylesheets/application.scss */
+.profile-card-menu {
+  display: inline-block;
+  font-size: 1.6em;
+}
+
+/* line 72, app/assets/stylesheets/application.scss */
+.profile-menu-item {
+  border-right: 0px;
+  color: black;
+  display: inline-block;
+  padding: 2px;
+}
+
+/* line 81, app/assets/stylesheets/application.scss */
+.profile-menu-item ul li a:hover {
+  color: #1e8bc3;
+  display: inline-block;
+  transform: rotateY(360deg);
+}
+
+/* line 87, app/assets/stylesheets/application.scss */
+#valid-short {
+  color: #81cfe0;
+}
+
+/* line 91, app/assets/stylesheets/application.scss */
+#invalid-short {
+  color: #f64747;
+}
+
+/* line 95, app/assets/stylesheets/application.scss */
+.top-nav-li a {
+  color: white;
+}
+
+/* line 97, app/assets/stylesheets/application.scss */
+.top-nav-li a:hover {
+  color: #1e8bc3;
+  text-decoration: none;
+}
+
+/* line 103, app/assets/stylesheets/application.scss */
+.center-text {
+  text-align: center;
+}
+
+/* line 107, app/assets/stylesheets/application.scss */
+.form-width {
+  width: 100%;
+}
+
+/* line 111, app/assets/stylesheets/application.scss */
+.justify-left {
+  text-align: justify;
+}
+
+/* line 115, app/assets/stylesheets/application.scss */
+.form-control::-webkit-input-placeholder {
+  color: lightgray;
+}
+
+/* WebKit, Blink, Edge */
+/* line 116, app/assets/stylesheets/application.scss */
+.form-control:-moz-placeholder {
+  color: lightgray;
+}
+
+/* Mozilla Firefox 4 to 18 */
+/* line 117, app/assets/stylesheets/application.scss */
+.form-control::-moz-placeholder {
+  color: lightgray;
+}
+
+/* Mozilla Firefox 19+ */
+/* line 118, app/assets/stylesheets/application.scss */
+.form-control:-ms-input-placeholder {
+  color: lightgray;
+}
+
+/* Internet Explorer 10-11 */
+/* line 119, app/assets/stylesheets/application.scss */
+.form-control::-ms-input-placeholder {
+  color: lightgray;
+}
+
+/* Microsoft Edge */
+/* line 121, app/assets/stylesheets/application.scss */
+.lower-menu {
+  margin-bottom: -5px;
+}
+
+/* line 125, app/assets/stylesheets/application.scss */
+#top-logo {
+  margin-bottom: -12px;
+  position: relative;
+  vertical-align: bottom;
+}
+
+/* line 131, app/assets/stylesheets/application.scss */
+#bottom-logo {
+  width: 86px;
+  height: auto;
+  margin-top: -41px;
+  margin-left: -6px;
+}
+
+/* line 138, app/assets/stylesheets/application.scss */
+#lower-links {
+  margin-top: -34px;
+  margin-right: 17px;
+  font-size: 0.85em;
+  text-align: right;
+}
+
+/* Used on the tool pages */
+/* line 146, app/assets/stylesheets/application.scss */
+.handled {
+  text-decoration: line-through;
+}
+
+/* line 150, app/assets/stylesheets/application.scss */
+#top-right-gravatar {
+  margin-top: -20px;
+}
+
+/* To get the footer closer to the content */
+/* line 155, app/assets/stylesheets/application.scss */
+#main-container {
+  padding-bottom: 1.6rem !important;
+}
+
+/* tweaking the appearance of the footer */
+/* line 160, app/assets/stylesheets/application.scss */
+#footer {
+  background-color: black;
+  color: white;
+  font-size: 1.3em;
+  border-radius: 0;
+}
+
+/* line 165, app/assets/stylesheets/application.scss */
+#footer a {
+  font-size: 1.05em;
+  padding-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+/* line 170, app/assets/stylesheets/application.scss */
+#footer a:visited {
+  color: white;
+}
+
+/* line 173, app/assets/stylesheets/application.scss */
+#footer a:hover {
+  color: #1e8bc3;
+  transform: rotateY(360deg);
+  text-decoration: none;
+}
+
+/* line 181, app/assets/stylesheets/application.scss */
+.digest_gravatar {
+  margin-top: 1.2em;
+}
+
+/* line 185, app/assets/stylesheets/application.scss */
+.essay {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+/* line 188, app/assets/stylesheets/application.scss */
+.essay .essay-list {
+  margin-left: 2em;
+}
+
+/* line 191, app/assets/stylesheets/application.scss */
+.essay .essay-figure {
+  margin: 1em;
+}
+
+/* line 196, app/assets/stylesheets/application.scss */
+.essay-quote {
+  background-color: #fde3a7;
+  border-left: 4.5em solid #e87e04;
+  border-bottom: 0.5em solid #e87e04;
+  font-family: 'Sanchez', serif;
+  font-size: 1.0em;
+  font-style: italic;
+  line-height: 1.2em;
+  margin-top: 1.2em;
+  margin-left: 4.0em;
+  margin-right: 12.0em;
+  padding-bottom: 0.8em;
+  padding-left: 2.5em;
+  padding-right: 3.0em;
+  padding-top: 0.8em;
+}
+
+/* line 213, app/assets/stylesheets/application.scss */
+.essay-quote .quotemark {
+  color: white;
+  font-size: 4.0em;
+  position: relative;
+  top: -28px;
+  left: -116px;
+}
+
+/* line 222, app/assets/stylesheets/application.scss */
+fieldset {
+  margin-top: 1.2em;
+}
+
+/* line 224, app/assets/stylesheets/application.scss */
+fieldset legend {
+  margin-bottom: -0.6em;
+}
+
+/* line 227, app/assets/stylesheets/application.scss */
+fieldset p {
+  margin-top: 0em;
+}
+
+/* line 232, app/assets/stylesheets/application.scss */
+.circle-icons {
+  font-size: 1.3em;
+}
+
+/* line 236, app/assets/stylesheets/application.scss */
+.snug-banner {
+  margin-bottom: 1.2em;
+  margin-top: 3em;
+}
+
+/* line 239, app/assets/stylesheets/application.scss */
+.snug-banner img {
+  position: absolute;
+  left: 36px;
+  top: 14px;
+  z-index: 100;
+}
+
+/* line 245, app/assets/stylesheets/application.scss */
+.snug-banner .snug-title {
+  background: black;
+  color: white;
+  font-size: 3em;
+  font-weight: 400;
+  padding-bottom: 0.1em;
+  padding-left: 150px;
+  padding-top: 0em;
+}
+
+/* line 254, app/assets/stylesheets/application.scss */
+.snug-banner .snug-sub {
+  background: black;
+  color: white;
+  text-align: right;
+  font-size: 1.8em;
+  font-weight: light;
+  padding-bottom: 0.1em;
+  padding-right: 1em;
+  padding-top: 0em;
+}
+
+/* line 263, app/assets/stylesheets/application.scss */
+.snug-banner .snug-sub a {
+  font-size: 1.1em;
+}
+
+/* line 269, app/assets/stylesheets/application.scss */
+.art-title {
+  margin-bottom: 1.4em;
+  padding-top: 0.7em;
+}
+
+/* line 273, app/assets/stylesheets/application.scss */
+.art-title .small a {
+  background-color: white;
+  color: black;
+}
+
+/* line 278, app/assets/stylesheets/application.scss */
+.art-title a {
+  background-color: black;
+  font-weight: 500;
+  margin-left: -0.73em;
+  padding-bottom: 0.3em;
+  padding-left: 1.0em;
+  padding-right: 0.5em;
+  padding-top: 0.4em;
+}
+
+/* line 289, app/assets/stylesheets/application.scss */
+.bigger {
+  font-size: 1.4em;
+}
+
+a.art-link {
+  color:    black;
+}
+
+#copyright {
+  color:      white;
+  float:      right;
+  font-size:  0.8em
+}
+
+.red-text {
+  color:      red;
+}
