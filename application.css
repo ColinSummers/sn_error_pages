@@ -1,20 +1,6 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
-
-
- */
 /* We purchased this theme from Bootstrap at the very start: */
 /* http://themes.getbootstrap.com/preview/?theme_id=1474 */
+
 @font-face {
   font-family: "toolkit-entypo";
   src: url(/assets/toolkit-entypo-3700d3d1d498629a0ea8e58f5c2f1113a8cea7c2c3fe43697ee39cb4d871a1a6.eot);
@@ -43,47 +29,6 @@ body {
 /* line 54, app/assets/stylesheets/application.scss */
 .bg-primary {
   background-color: black !important;
-}
-
-/* For the validation of the short name of the snug circle */
-/* line 59, app/assets/stylesheets/application.scss */
-.circle-short-icon-styles {
-  font-size: 1.8em;
-  margin-right: 24px;
-  margin-top: 20px;
-  position: absolute;
-  right: 52px;
-}
-
-/* line 67, app/assets/stylesheets/application.scss */
-.profile-card-menu {
-  display: inline-block;
-  font-size: 1.6em;
-}
-
-/* line 72, app/assets/stylesheets/application.scss */
-.profile-menu-item {
-  border-right: 0px;
-  color: black;
-  display: inline-block;
-  padding: 2px;
-}
-
-/* line 81, app/assets/stylesheets/application.scss */
-.profile-menu-item ul li a:hover {
-  color: #1e8bc3;
-  display: inline-block;
-  transform: rotateY(360deg);
-}
-
-/* line 87, app/assets/stylesheets/application.scss */
-#valid-short {
-  color: #81cfe0;
-}
-
-/* line 91, app/assets/stylesheets/application.scss */
-#invalid-short {
-  color: #f64747;
 }
 
 /* line 95, app/assets/stylesheets/application.scss */
@@ -170,12 +115,6 @@ body {
   text-align: right;
 }
 
-/* Used on the tool pages */
-/* line 146, app/assets/stylesheets/application.scss */
-.handled {
-  text-decoration: line-through;
-}
-
 /* line 150, app/assets/stylesheets/application.scss */
 #top-right-gravatar {
   margin-top: -20px;
@@ -219,49 +158,6 @@ body {
 /* line 181, app/assets/stylesheets/application.scss */
 .digest_gravatar {
   margin-top: 1.2em;
-}
-
-/* line 185, app/assets/stylesheets/application.scss */
-.essay {
-  font-size: 1.2em;
-  font-weight: 400;
-}
-
-/* line 188, app/assets/stylesheets/application.scss */
-.essay .essay-list {
-  margin-left: 2em;
-}
-
-/* line 191, app/assets/stylesheets/application.scss */
-.essay .essay-figure {
-  margin: 1em;
-}
-
-/* line 196, app/assets/stylesheets/application.scss */
-.essay-quote {
-  background-color: #fde3a7;
-  border-left: 4.5em solid #e87e04;
-  border-bottom: 0.5em solid #e87e04;
-  font-family: 'Sanchez', serif;
-  font-size: 1.0em;
-  font-style: italic;
-  line-height: 1.2em;
-  margin-top: 1.2em;
-  margin-left: 4.0em;
-  margin-right: 12.0em;
-  padding-bottom: 0.8em;
-  padding-left: 2.5em;
-  padding-right: 3.0em;
-  padding-top: 0.8em;
-}
-
-/* line 213, app/assets/stylesheets/application.scss */
-.essay-quote .quotemark {
-  color: white;
-  font-size: 4.0em;
-  position: relative;
-  top: -28px;
-  left: -116px;
 }
 
 /* line 222, app/assets/stylesheets/application.scss */
